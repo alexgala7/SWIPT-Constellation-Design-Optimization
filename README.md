@@ -33,10 +33,9 @@ We evaluated the communication reliability of these schemes under power splittin
 * **PAPR Derivation:** Calculated as $PAPR = \frac{\max |s_i|^2}{E[|s_i|^2]}$.
 * **SEP Modeling:** Analytical approximation of symbol error probability over AWGN channels, accounting for the fraction of power used for harvesting ($\rho$).
 
-### 📂 Repository Content
-* `src/`: MATLAB/Python scripts for constellation generation and Monte-Carlo SEP simulations.
-* `plots/`: Comparative graphs of PAPR-$d_{min}$ and SEP-SNR performance.
-* 📄 `SWIPT_Constellation_Analysis.pdf`: The complete technical report containing all derivations (Equations 1-28) and literature review.
+## 📂 Repository Content
+The full technical report containing all mathematical derivations, performance plots, and comparative conclusions is available below:
+👉 [SWIPT_Constellation_Analysis.pdf](./SWIPT_Constellation_Analysis.pdf)
 
 ---
 ## 📚 References
