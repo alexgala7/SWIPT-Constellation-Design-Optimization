@@ -16,6 +16,7 @@ We performed a comparative study of standard and specialized modulation schemes:
 * **Core Logic:** Derived mathematical expressions for PAPR as a function of $d_{min}$.
 * **Key Finding:** While 16-PSK has a constant PAPR of 1 (ideal for IT but poor for PT), **16-CQAM** provides a flexible trade-off. Our analysis shows that CQAM can maintain significantly higher PAPR values as $d_{min}$ varies, outperforming 16-PAM and 16-PSK in energy-harvesting potential.
 
+![PAPR vs dmin Analysis](images/papr_plot.png)
 
 #### 2. SEP vs. Energy Harvesting Trade-off
 We evaluated the communication reliability of these schemes under power splitting constraints:
@@ -24,7 +25,7 @@ We evaluated the communication reliability of these schemes under power splittin
     * **16-sQAM (Spike QAM):** Our simulation results verify that 16-sQAM outperforms 16-CQAM by achieving higher PAPR and larger $d_{min}$ simultaneously, maintaining lower SEP at equivalent energy harvesting levels.
 * **Verification:** Theoretical derivations for $P_e$ (using Q-functions and average symbol energy) were validated against Monte-Carlo simulation results.
 
-
+![SEP vs SNR Analysis](images/sep_plot.png)
 ---
 
 ## 💻 Mathematical Framework & Implementation
