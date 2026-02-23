@@ -36,7 +36,7 @@ We evaluated the communication reliability of these schemes under power splittin
 
 ## 📂 Repository Content
 The full technical report containing all mathematical derivations, performance plots, and comparative conclusions is available below:
-👉 [SWIPT_Constellation_Analysis.pdf](./SWIPT_Constellation_Analysis.pdf)
+👉 [SWIPT_Constellation_Analysis.pdf](.report/SWIPT_Constellation_Analysis.pdf)
 
 ---
 ## 📚 References
